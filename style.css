@@ -1,0 +1,45 @@
+/* Container for the logo */
+.logo {
+    float: left;
+    padding: 10px;
+}
+
+/* Container for the menu */
+.menu {
+    float: right;
+    padding: 10px;
+}
+
+/* Remove default list styling */
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* Style each list item */
+.menu ul li {
+    margin: 0 15px;
+}
+
+/* Style the links */
+.menu ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+}
+
+/* Change link color on hover */
+.menu ul li a:hover {
+    color: #007BFF;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
